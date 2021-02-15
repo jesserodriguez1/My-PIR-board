@@ -7,7 +7,7 @@ void setup() {
   pinMode(MOTION_PIN, INPUT_PULLUP);
   pinMode(LED_PIN, OUTPUT);
   pinMode(relayPin, OUTPUT); //Pin connected to Relay as OUTPUT
-  digitalWrite(relayPin, LOW); //Set pin to LOW to turn relay OFF
+  digitalWrite(relayPin, HIGH); //Set pin to LOW to turn relay OFF
   Serial.print("PIR MOTION SENSING");
 }
 
@@ -17,16 +17,16 @@ void loop() {
 
   while (proximity == 0)
    { 
-    digitalWrite(LED_PIN, HIGH);
-    digitalWrite(relayPin, HIGH);
+    digitalWrite(LED_PIN, HIGH); // turns on LED closest to relay
+    digitalWrite(relayPin, HIGH); //turns on Relay
     proximity = digitalRead(MOTION_PIN);
-    delay(10000);
+    delay(5000); //duration of 5 seconds
    }
-    digitalWrite(LED_PIN, LOW);
-    digitalWrite(relayPin, LOW);
+    digitalWrite(LED_PIN, LOW); //turns off LED
+    digitalWrite(relayPin, LOW); //turns off relay
     Serial.println("Relay is OFF");
    
-//  if (proximity == 0)
+//  if (proximity == 0)  old code
 //  {
 //    digitalWrite(LED_PIN, HIGH);
 //    Serial.println("Motion detected");
