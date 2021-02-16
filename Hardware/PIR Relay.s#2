@@ -7676,8 +7676,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R5" library="SparkFun-Resistors" deviceset="47KOHM" device="-0603-1/10W-1%" value="47k"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="BAT20J"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="MMBT22A"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="600mA/40V"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW_LOCK"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VCC" device="" value="5V"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VCC" device="" value="5V"/>
@@ -7685,7 +7685,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U2" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="5V" library="SparkFun-PowerSymbols" deviceset="VCC" device="" value="3.3V"/>
-<part name="Y1" library="SparkFun-Clocks" deviceset="RESONATOR" device="SMD-3.2X1.3" value="16.00MHz"/>
+<part name="Y1" library="SparkFun-Clocks" deviceset="RESONATOR" device="SMD-3.2X1.3"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
@@ -7696,7 +7696,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J4" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_3X2" device="2X3_LOCK"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VCC" device="" value="5V"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-SS14" value="SS14TR Shottky"/>
+<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-SS14" value="1A/40V/500mV"/>
 <part name="U3" library="SparkFun-IC-Power" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="47UF-POLAR" device="-PANASONIC_D-35V-20%" value="47uF"/>
@@ -7715,7 +7715,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R9" library="SparkFun-Resistors" deviceset="715OHM" device="-0603-1/10W-1%" value="715"/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="AP3012" device="" value="AP3012"/>
 <part name="L1" library="SparkFun-Coils" deviceset="10μH_SHIELDED_INDUCTOR" device="0805" value="10μH"/>
-<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="BAT20J"/>
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="43KOHM" device="-0603-1/10W-1%" value="43k"/>
