@@ -8298,7 +8298,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="185.42" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TX" class="0">
+<net name="FTDI-TX" class="0">
 <segment>
 <pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="388.62" y1="134.62" x2="388.62" y2="137.16" width="0.1524" layer="91"/>
@@ -8313,23 +8313,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J6" gate="G$1" pin="3"/>
 <wire x1="177.8" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
 <label x="185.42" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RX" class="0">
-<segment>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="375.92" y1="134.62" x2="375.92" y2="137.16" width="0.1524" layer="91"/>
-<label x="375.92" y="137.16" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U2" gate="U1" pin="PD1(TXD)"/>
-<wire x1="330.2" y1="152.4" x2="335.28" y2="152.4" width="0.1524" layer="91"/>
-<label x="335.28" y="152.4" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
-<label x="185.42" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -8548,6 +8531,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J6" gate="G$1" pin="5"/>
 <wire x1="177.8" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
 <label x="185.42" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FTDI-RX" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="PD1(TXD)"/>
+<wire x1="330.2" y1="152.4" x2="335.28" y2="152.4" width="0.1524" layer="91"/>
+<label x="335.28" y="152.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="375.92" y1="134.62" x2="375.92" y2="137.16" width="0.1524" layer="91"/>
+<label x="375.92" y="137.16" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
+<label x="185.42" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
